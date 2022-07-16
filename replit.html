@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Replit</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+
+<body>
+    <h2>JavaScript Const</h2>
+    <p>Declaring a constant array does not make the elements unchangable:</p>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+
+    <script type="text/javascript">
+        //create an array
+        const fruits = ["apple", "Banana", "Orange"];
+        //Display the array
+
+        document.getElementById("demo").innerHTML = fruits;
+
+        //change an element
+
+        fruits[0] = "Apricot" //select the array sl no to change an item
+
+        //Add an element
+
+        fruits.push("mango");
+
+        //display the array
+
+        document.getElementById("demo1").innerHTML = fruits;
+    </script>
+
+</body>
+
+</html>

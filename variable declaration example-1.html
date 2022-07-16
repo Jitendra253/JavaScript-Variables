@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Declaration Of Js Variabale using var,let and const keywords</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+</head>
+
+<body>
+
+    <h4>Redeclaring a variable Using let</h4>
+    <p id="let"></p>
+    <script>
+        let x = 'Hello';
+
+        {
+            let x = 'Hello JS'
+
+
+        }
+        document.getElementById("let").innerHTML = x;
+    </script>
+
+    <h4>Redeclaring a variable Using var</h4>
+    <p id="var"></p>
+    <script>
+        var y = 'Hello';
+
+        {
+            var y = 'Hello JS'
+
+
+        }
+        document.getElementById("var").innerHTML = y;
+    </script>
+    <h4>Redeclaring a variable Using const</h4>
+    <p id="const"></p>
+    <script>
+        const z = 'Hello';
+
+        {
+            const z = 'Hello JS'
+
+            document.getElementById("const").innerHTML = z;
+        }
+        document.getElementById("const").innerHTML = z;
+    </script>
+</body>
+
+</html>
